@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+public class GhettoNumeralSystem {
+    public static void main(String[] args) {
+        Scanner console = new Scanner(System.in);
+        String enterNumber = console.nextLine();
+        String split = "";
+        for (int i = 0; i <enterNumber.length() ; i++) {
+            switch (enterNumber.charAt(i)) {
+                case 0: split += "Gee";break;
+                case '1': split += "Bro";break;
+                case '2': split += "Zuz";break;
+                case '3': split += "Ma";break;
+                case '4': split += "Duh";break;
+                case '5': split += "Yo";break;
+                case '6': split += "Dis";break;
+                case '7': split += "Hood";break;
+                case '8': split += "Jam";break;
+                case '9': split += "Mack";break;
+            }
+        }
+        System.out.println(split);
+    }
+}
