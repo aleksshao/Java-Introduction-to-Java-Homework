@@ -1,0 +1,13 @@
+import java.util.Scanner;
+
+public class GetAverage {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        double enterNumber1 = input.nextDouble();
+        double enterNumber2 = input.nextDouble();
+        double enterNumber3 = input.nextDouble();
+
+        double rez = (enterNumber1 + enterNumber2 + enterNumber3)/3;
+        System.out.printf("%.2f" , rez);
+    }
+}
