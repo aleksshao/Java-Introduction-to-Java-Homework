@@ -1,0 +1,27 @@
+# Java-Introduction-to-Java-Homework
+Softuni Java Homeworks
+public class AssignVariables {
+    public static void main(String[] args) {
+        boolean number1 = false;
+        String name = "Palo Alto, CA";
+        byte number2 = 127;
+        float number3 = 0.5f;
+        char c = 'c';
+        double number4 = 0.1234567891011;
+        short number5 = 32767;
+        int number6 = 2000000000;
+        long number7 = 9198827112351l;
+
+        System.out.println(number1);
+        System.out.println(number2);
+        System.out.println(number3);
+        System.out.println(number4);
+        System.out.println(number5);
+        System.out.println(number6);
+        System.out.println(number7);
+        System.out.println(name);
+        System.out.println(c);
+    }
+
+
+}
