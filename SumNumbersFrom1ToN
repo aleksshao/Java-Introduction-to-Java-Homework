@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+public class SumNumbersFrom1ToN {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        int enterNumber = input.nextInt();
+        int num = 1;
+        int sum = 1;
+
+        while (num < enterNumber){
+            num ++;
+            sum += num;
+        }
+        System.out.print(sum);
+    }
+}
